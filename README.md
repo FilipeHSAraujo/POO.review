@@ -65,19 +65,3 @@ Neste projeto:
 - Os objetos são manipulados usando referências da **classe pai**
 
 ---
-
-## 🧪 Exemplo de sintaxe utilizada
-
-```java
-class Animal {
-    public void fazerSom() {
-        System.out.println("O animal faz um som");
-    }
-}
-
-class Cachorro extends Animal {
-    @Override
-    public void fazerSom() {
-        System.out.println("O cachorro late");
-    }
-}
